@@ -1,0 +1,28 @@
+/* Footer Styles */
+
+.page__footer {
+	@include x-rem(margin, 5 auto 0 auto)
+}
+
+	.footer__author {
+		@include x-rem(height, 7);
+		@include x-rem(width, 7);
+		@include x-rem(top, -2);
+		@include x-rem(margin-right, 1);
+
+		position: relative;
+		float: left;
+
+		background: url(../img/anselmhannemann-1.jpg);
+		background-size: cover;
+		border-radius: 50%;
+
+		img {
+			@include x-rem(height, 7);
+			opacity: 0;
+		}
+	}
+
+	p {
+		@include x-rem(margin, 0 0 0.25 0)
+	}

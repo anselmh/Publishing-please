@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Anselm Hannemann -- Project Owner, Web Developer -- @helloanselm
+
+# THANKS
+
+    All various contributors.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr

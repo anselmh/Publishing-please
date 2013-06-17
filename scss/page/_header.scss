@@ -1,0 +1,46 @@
+/* Header Styles */
+
+.page__header {
+	@include x-box-sizing;
+	@include x-rem(padding, 2);
+
+	width: 100%;
+	text-align: center;
+
+	> h1 {
+		margin: 0;
+	}
+
+	> h1 > a {
+		@include x-rem(font-size, 3);
+		@include x-rem(margin, 0.25 0 0.5 0);
+
+		color: $headerColorHead;
+		text-decoration: none;
+	}
+
+	> h2 {
+		@include x-rem(font-size, 1.25);
+		@include x-rem(margin, 0.25 0 0.5 0);
+
+		font-weight: normal;
+		color: $headerColorSubhead;
+	}
+}
+
+	.page__navigation li {
+		@include x-rem(padding, 0.5);
+
+		display: inline-block;
+
+		@media screen and (max-width: 768px){
+			display: block;
+
+			> a {
+				width: 80%;
+				display: block;
+				padding: 0px 12px !important;
+				margin: 0;
+			}
+		}
+	}
